@@ -3,11 +3,11 @@
 
 body
 {
-	background-image: url('./inn01.avif');
-    background-size: cover;
-    background-position: center;
-    color: black;
-    padding: 0 0;  
+	background-image: url('./inn01.jpg');
+        background-size: cover;
+        background-position: center;
+        color: black;
+        padding: 0 0;  
 	opacity: 80%;
 	
 	margin: 0;
