@@ -1,4 +1,4 @@
-// to make M+ and M- functional
+//   to make M+ & M-  functional
 let string = "";
 let buttons = document.querySelectorAll('.button');
 Array.from(buttons).forEach((button)=>{
