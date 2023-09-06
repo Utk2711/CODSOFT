@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
 .box{
-    background-color: lightblue;
+    background-color: powderblue;
     color: grey;
   width : 350px;
   height:550px;
@@ -10,30 +10,39 @@
   margin-left:auto;
   margin-right:auto;
 }
-html, body {
+html body {
   height: 100%;
   width: 100%;
   color: grey;
-  font-family: 'Roboto', serif; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
   font-size: 23px;
 }
 
 .button{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   width: 65px;
   padding: 20px;
   margin: 0 3px;
-  border: 3px solid grey;
+  border: 2.5px solid grey;
   border-radius: 9px;
   cursor: pointer;
   
+}
+.button:hover{
+    opacity:100;
+    cursor:pointer;
+    transform: translateY(-1.5px);
+
 }
 
 .row{
   margin: 10px 0;
 }
 .row input{
-  width: 289px;
-  font-size: 25px;
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 289px;
+    font-size: 25px;
     margin: 0;
     padding: 10px 01px;
     border: 3px solid grey;
